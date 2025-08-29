@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To Do App UI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <header>
+      <h5>TASKU</h5>
+      <form action="search here">
+        <input type=" text" placeholder="search lists here ">
+        <button type="submit">🔍</button>
+      </form>
+
+    </header>
+    
+
+    <div class="task-list">
+      <!-- Task Item -->
+      <div class="task-item">
+        <div class="date">
+          <span class="day">28</span>
+          <span class="month">Mar</span>
+        </div>
+        <div class="task-content">
+          <h3>Special <span class="tag">Work</span></h3>
+          <p>Hello, I would like to take out some things.</p>
+        </div>
+      </div>
+
+      <div class="task-item">
+        <div class="date active">
+          <span class="day">3</span>
+          <span class="month">Apr</span>
+        </div>
+        <div class="task-content">
+          <h3>Go home <span class="tag family">Family</span></h3>
+          <p>Qingming Festival holiday home.</p>
+        </div>
+      </div>
+
+      <div class="task-item">
+        <div class="date highlight">
+          <span class="day">28</span>
+          <span class="month">Apr</span>
+        </div>
+        <div class="task-content">
+          <h3>DOST birthday <span class="tag birth">Birth</span></h3>
+          <p>Remember to buy gifts home.</p>
+        </div>
+      </div>
+
+      <div class="task-item">
+        <div class="date">
+          <span class="day">1</span>
+          <span class="month">May</span>
+        </div>
+        <div class="task-content">
+          <h3>Japan Tourism <span class="tag family">Family</span></h3>
+          <p>Remember to pack your luggage ready for dep...</p>
+        </div>
+      </div>
+    </div>
+
+    <nav class="bottom-nav">
+      <button class="nav-btn active">📋</button>
+      <button class="add-btn">＋</button>
+      <button class="nav-btn">👤</button>
+    </nav>
+  </div>
+</body>
+</html>
